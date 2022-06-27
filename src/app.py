@@ -25,7 +25,7 @@ access_token = os.environ.get('ACCESS_TOKEN')
 access_token_secret = os.environ.get('ACCESS_TOKEN_SECRET')
 bearer_token = os.environ.get('BEARER_TOKEN')
 
-# función para conectarse a Tweeter
+# función para conectarse a Twitter
 client = tweepy.Client( bearer_token=bearer_token, 
                         consumer_key=consumer_key, 
                         consumer_secret=consumer_secret, 
